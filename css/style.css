@@ -250,8 +250,64 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 0 10px;
 }
 
-.why-bottom-item__icon {
-  margin-bottom: 20px;
+.why-top {
+  display: ms-flexbox;
+  display: flex;
+}
+.why-top__column {
+  flex: 0 0 50%;
+  background-color: #000;
+}
+.why-top__text {
+  padding: 55px 70px 50px 0;
+  text-align: right;
+  color: #ffffff;
+  font-family: "Bebas Neue";
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.why-top__img {
+  background-image: url("../img/why/Layer 3.png");
+  background-size: cover;
+}
+
+.why-bottom-row {
+  display: ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid #ef0;
+}
+
+.why-bottom {
+  background-color: #ebebeb;
+  padding-top: 30px;
+}
+.why-bottom__column {
+  border: 2px dashed #ef0134;
+  flex: 0 0 50%;
+}
+
+.why-bottom-item {
+  display: ms-flexbox;
+  display: flex;
+  padding-bottom: 35px;
+}
+.why-bottom-item-body {
+  display: ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+.why-bottom-item-body__title {
+  flex: 1 1 auto;
+  padding-left: 20px;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+  font-family: "Bebas Neue";
+}
+.why-bottom-item-body__text {
+  padding-left: 20px;
+  font-size: 14px;
 }
 
 .header {
